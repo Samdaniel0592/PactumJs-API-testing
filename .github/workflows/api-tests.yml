@@ -23,7 +23,7 @@ jobs:
       - name: Run API tests
         run: npm test
       - name: Upload HTML Test Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: html-report
           path: html-report/report.html
