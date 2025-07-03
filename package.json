@@ -1,0 +1,15 @@
+{
+  "name": "pactumjs-api-testing",
+  "version": "1.0.0",
+  "description": "API Automation Testing Framework with PactumJS and Jest",
+  "scripts": {
+    "test": "jest",
+    "smoke": "jest --testPathPattern=smoke",
+    "regression": "jest --testPathPattern=regression"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.7",
+    "pactum": "^3.8.0"
+  }
+}
